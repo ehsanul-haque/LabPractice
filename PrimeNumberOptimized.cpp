@@ -11,9 +11,12 @@ int main()
     {
         prime = false;
     }
-    for (int i = 2; i * i <= number; i++)
+    for (int i = 2; i * i < number; i++)
     {
-        prime = true;
+        if (number % i == 0)
+        {
+            prime = false;
+        }
     }
     if (prime == true)
     {
