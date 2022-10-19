@@ -13,5 +13,14 @@ int main()
         first = second;
         second = fibo;
     }
+     /*  while (fibo <= num)
+    {
+
+        cout << first << " ";
+        fibo = first + second;
+        first = second;
+        second = fibo;
+    }*/ 
+    
     return 0;
 }
