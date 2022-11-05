@@ -48,5 +48,19 @@
       "return 0;\n}\n"
     ],
     "description": "Default cpp code for CP"
+  },
+
+  "cppp-extension": {
+    "prefix": ["cpp-cp3"],
+    "body": [
+      "#include <bits/stdc++.h>",
+      "using namespace std;\n",
+
+      "int main() {\n\tios_base::sync_with_stdio(false);cin.tie(NULL);cout.tie(NULL);\n#ifndef ONLINE_JUDGE",
+      "\tfreopen(\"input.txt\", \"r\", stdin);",
+      "\tfreopen(\"output.txt\", \"w\", stdout);",
+      "#endif\n\n\t$1\n\n\treturn 0;\n}\n"
+    ],
+    "description": "Default cpp code for CP"
   }
 }
