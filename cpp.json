@@ -9,7 +9,7 @@
     "prefix": "boilerplate",
     "body": [
       "#include <iostream>",
-      "using namespace std;",
+      "using namespace std;\n",
       "int main()",
       "{",
 	    "\t$0",
